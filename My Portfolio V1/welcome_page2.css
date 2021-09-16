@@ -1,0 +1,122 @@
+html, body{
+    margin: 0%;
+    height: 110%;
+}
+
+h1{
+    color: #ffffff; 
+    font-size: 250%;
+    font-family: 'Raleway', sans-serif;
+    margin:auto;
+    font-weight: bold;
+
+}
+
+.container-fluid{
+    padding-top: 7%;
+}
+
+header{
+    background-color: #000000;
+    text-align: center;
+    padding: 7%;
+}
+
+.quote{
+    color: #c2c2c2;
+    font-style:italic;
+    font-size: 150%;
+    font-weight: lighter;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 0;
+    margin-top: 5%;
+}
+#auther{
+     font-size: 70%;
+ }
+
+ a{
+    text-decoration: none;
+    color: inherit;
+}
+i{
+    border: 8px solid black;
+    border-radius: 20%;
+    padding: 4%;
+    background-color: #ffffff;
+    opacity: 0.7;
+}
+i:hover{                               
+    opacity: 1;
+    color: black;
+    transform: scale(1.1);
+    transition-property: all; transition-duration: 0.2s; transition-timing-function: linear;
+}
+
+
+p{
+    text-align: center;
+    margin-top: 3px;
+
+}
+
+img{
+    width: 20%;
+    border-radius: 50%;
+    display: none;
+}
+
+@media only screen and (min-width: 768px){
+    html, body{
+        height: 110%;
+    }
+
+    header{
+        padding: 5%;
+    }
+}
+
+@media only screen and (min-width: 992px){
+
+    html, body{
+        height: 100%;
+    }
+    
+    #header_content{
+        position: relative;
+        width: 100%;
+        text-align: left;
+    }
+
+    img{
+        display: block;
+        float: right;
+        width: 15%;
+    }
+
+    header{
+        padding-top: 10px;
+        padding-bottom: 67px;
+        padding-left: 50px;
+        padding-right: 50px
+    }
+
+    .quote{
+        margin-top: 1%;
+    }
+
+    h1{
+        padding-top: 50px
+    }
+
+    .container-fluid{
+        padding-top: 10%;
+    }
+}
+
+@media only screen and (min-width: 1140px){
+    html, body{
+        height: 100%;
+    }
+}
+

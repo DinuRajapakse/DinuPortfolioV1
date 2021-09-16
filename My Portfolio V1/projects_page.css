@@ -1,0 +1,46 @@
+html, body{
+    margin: 0%;
+    height: 150%;
+}
+
+.navbar-brand{
+    font-size: 250%;
+    font-family: 'Raleway', sans-serif;
+    font-weight:normal;
+}
+
+.navbar{
+    padding: 3% 0 3% 0;
+}
+
+a.btn{
+    /* background-color: black; */
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    font-weight:normal;
+}
+
+.card{
+    font-size: 95%;
+    font-weight: 600;
+}
+
+
+
+@media only screen and (min-width: 768px){
+    html, body{
+        height: 130%;
+    }
+}
+
+/* .btn:hover{
+    color: rgb(255, 217, 217);
+} */
+
+@media only screen and (min-width: 992px){
+    html, body{
+        height: 100%;
+    }
+}
+/* USE nav-item class to style each link (opacity, hover, etc)
+Work on th hamburger lines. Customize colors of the toggler, etc */
