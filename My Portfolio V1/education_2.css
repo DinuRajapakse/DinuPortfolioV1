@@ -1,6 +1,6 @@
 html, body{
     margin: 0%;
-    height: 198%;
+    height: 100%;
     background-color: rgb(255, 255, 255);
     /* background-image: url("/Assets/aboutme_bg2.jpg");
     background-position: center;
@@ -215,7 +215,7 @@ img{
 
     body{
         background-color: #ffffff;
-        height: 140%;
+        height: 100%;
     }
 
     .navbar-brand{
@@ -276,7 +276,7 @@ img{
 
 }
 
-@media only screen and (min-width: 1140px){
+@media only screen and (min-width: 1200px){
 
     img{
         display: none;
@@ -421,7 +421,7 @@ img{
     padding-right: 4%;
 }
 
-@media only screen and (min-width: 1140px){
+@media only screen and (min-width: 1200px){
 
     body{
         background-color: #ffffff;
@@ -511,6 +511,8 @@ img{
 
     #intro_heading, #intro_content, #edu_heading2, #edu_content2, #pnh_heading, #pnh_content{
         visibility: hidden;
+        font-style: italic;
+        
     } 
 
     #intro_all2::before, #edu_all::before, #pnh_all2::before{
