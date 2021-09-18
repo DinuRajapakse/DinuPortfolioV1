@@ -1,6 +1,6 @@
 html, body{
     margin: 0%;
-    height: 175%;
+    height: 160%;
 }
 
 .navbar-brand{
@@ -28,7 +28,7 @@ a.btn{
 
 @media only screen and (min-width: 300px){
     .navbar-brand{
-        font-size: 250%;
+        font-size: 200%;
         font-weight: normal;
     }
 }
@@ -50,7 +50,7 @@ a.btn{
 
 @media only screen and (min-width: 992px){
     html, body{
-        height: 100%;
+        height: 110%;
     }
 }
 /* USE nav-item class to style each link (opacity, hover, etc)

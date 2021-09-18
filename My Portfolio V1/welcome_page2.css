@@ -1,6 +1,9 @@
 html, body{
     margin: 0%;
     height: 110%;
+    background-image: url("Assets/welcome_logo1.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 h1{
@@ -10,7 +13,6 @@ h1{
     margin:auto;
     font-weight: bold;
 }
-
 
 .container-fluid{
     padding-top: 7%;
@@ -70,6 +72,7 @@ i:hover{
 p{
     text-align: center;
     margin-top: 3px;
+    font-weight: bold;
 
 }
 
@@ -82,10 +85,17 @@ img{
 @media only screen and (min-width: 768px){
     html, body{
         height: 100%;
+        background-image: url("Assets/welcome_logo1.jpg");
+        background-size: cover;
+        background-position: center;
     }
 
     header{
         padding: 5%;
+    }
+
+    #p_two{
+        color: rgb(255, 255, 255);    
     }
 }
 
@@ -93,6 +103,9 @@ img{
 
     html, body{
         height: 100%;
+        background-image: url("Assets/welcome_logo1.jpg");
+        background-size: cover;
+        background-position: center;
     }
     
     #header_content{
@@ -125,11 +138,23 @@ img{
     .container-fluid{
         padding-top: 10%;
     }
+    p{
+        color: white;
+    }
 }
 
 @media only screen and (min-width: 1140px){
     html, body{
         height: 100%;
+        background-image: url("Assets/welcome_logo1.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+
+    header{
+        padding: 1%;
+    }
+    h1{
+        padding: 1%;
     }
 }
-

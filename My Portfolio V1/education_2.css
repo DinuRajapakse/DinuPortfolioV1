@@ -1,7 +1,10 @@
 html, body{
     margin: 0%;
-    height: 195%;
+    height: 198%;
     background-color: rgb(255, 255, 255);
+    /* background-image: url("/Assets/aboutme_bg2.jpg");
+    background-position: center;
+    background-size: cover; */
 }
 
 #intro_heading, #edu_heading2, #pnh_heading, #intro_content, #edu_content2, #pnh_content{
@@ -13,6 +16,22 @@ html, body{
     line-height: 30px;
 }
 
+
+/* .sections::before{
+    content:"";
+    position:absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-image: url("Assets/welcome_logo1.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.6
+
+
+} */
+
 /* #intro_all2, #pnh_all2{
     background-color: rgb(204, 204, 204);
 }
@@ -23,7 +42,7 @@ html, body{
 
 #intro_all2, #pnh_all2, #edu_all, #intro_all, #pnh_all, #edu_all2{
     /* margin: 1%; */
-    margin: 4%;
+    margin: 0%;
 }
 
 #intro_all2, #edu_all, #pnh_all2, #intro_all, #edu_all2, #pnh_all{
@@ -31,8 +50,52 @@ html, body{
 
 }
 
-#intro_all2, #pnh_all2{
+/* #intro_all2, #pnh_all2{
     background-color: rgb(204, 204, 204);
+} */
+
+#intro_all2, #edu_all, #pnh_all2{
+    position: relative;
+    font-style: italic;
+}
+
+#intro_all2::before{
+    content:"";
+    position:absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-image: url("Assets/welcome_logo2.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.3
+}
+
+#edu_all::before{
+    content:"";
+    position:absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-image: url("Assets/ku_logo_1.jpeg");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.15
+}
+
+#pnh_all2::before{
+    content:"";
+    position:absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-image: url("Assets/pnh_logo_3.webp");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.15
 }
 
 #edu_all{
@@ -53,7 +116,7 @@ html, body{
 
 @media only screen and (min-width: 300px){
     .navbar-brand{
-        font-size: 250%;
+        font-size: 200%;
         font-weight: normal;
     }
 }
@@ -153,6 +216,10 @@ img{
     body{
         background-color: #ffffff;
         height: 140%;
+    }
+
+    .navbar-brand{
+        font-size: 250%;
     }
 
     #intro_heading2::before{
@@ -347,15 +414,21 @@ img{
 
 .sections_content, .sections_heading{
     text-align: center;
-    margin: 0 2% 5% 2%;
+    /* margin: 0 2% 5% 2%; */
+    margin: 0%;
+    padding-top: 1.5%;
+    padding-left: 4%;
+    padding-right: 4%;
 }
-
 
 @media only screen and (min-width: 1140px){
 
     body{
         background-color: #ffffff;
-        height: 135%;
+        height: 190%;
+        background-image: url("Assets/aboutme_bg2.jpg");
+        background-size: cover;
+        background-position: center;
     }
 
     img{
@@ -439,4 +512,8 @@ img{
     #intro_heading, #intro_content, #edu_heading2, #edu_content2, #pnh_heading, #pnh_content{
         visibility: hidden;
     } 
-}
+
+    #intro_all2::before, #edu_all::before, #pnh_all2::before{
+        display: none;
+        }
+    }
