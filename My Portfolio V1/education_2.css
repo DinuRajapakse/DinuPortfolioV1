@@ -227,7 +227,7 @@ img{
         left: 0px;
         right: 0px;
         background-image: url("Assets/ku\ _logo4.webp");
-        background-size: cover;
+        background-size: 100%;
         background-position: center;
         opacity: 0.2
     }
