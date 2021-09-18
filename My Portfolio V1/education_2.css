@@ -80,7 +80,7 @@ html, body{
     left: 0px;
     right: 0px;
     background-image: url("Assets/ku_logo_1.jpeg");
-    background-size: cover;
+    background-size: 99.9%;
     background-position: center;
     opacity: 0.15
 }
@@ -95,12 +95,13 @@ html, body{
     background-image: url("Assets/pnh_logo_3.webp");
     background-size: cover;
     background-position: center;
-    opacity: 0.15
+    opacity: 0.25
 }
 
 #edu_all{
     background-color: rgb(235, 235, 235);
 }
+
 
 /* #intro, #pnh, #edu{
     margin: 2%;
@@ -214,8 +215,20 @@ img{
 @media only screen and (min-width: 762px){
 
     body{
-        background-color: #ffffff;
         height: 100%;
+    }
+
+    #edu_all::before{
+        content:"";
+        position:absolute;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        background-image: url("Assets/ku\ _logo4.webp");
+        background-size: cover;
+        background-position: center;
+        opacity: 0.2
     }
 
     .navbar-brand{
@@ -477,7 +490,7 @@ img{
     }
 
     #pnh_all{
-        background-image: url("Assets/pnh_logo_4.jpg");
+        background-image: url("Assets/pnh_logo_5.jpg");
         background-repeat: no-repeat;
         background-size: 50%;
         background-position: center;
